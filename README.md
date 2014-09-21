@@ -2,35 +2,70 @@
 
 ## Introduction
 
-Presently this language has no offical name. So for the time being is will be called **fu lang**.
+Presently this language has no offical name. So for the time being is will be called **Fu Lang**.
 
 Fu Lang is an expiremental constructured language exploring the potential productively of a logical stack-based grammar and the a size limited lexicon. The ultimate goal, should the experiment prove successful, is to allow Fu Lang to flourish as an auxilary language which is simple enough for anyone to learn quickly, yet powerful enough to be a complete form of communication.
+
+This book is broken up into numerous small lessons. Each lesson can be digested in 10 to 15 minutes, some even faster if you are already familar with the material from studying other languages.
+
+The initial vocabulary has been developed with an ear toward cultural dominance. This includes the present global dominance of the English language, the rising influence of Chinese and the classical dominanace of Latin and Greek, with a smattering of other languages in particular Arabic for its gutteral phonetics which Fu Lang supports. As a lover language diversity, one wishes that the words of all languages could so represented. Unfortunately this is simply not logistically possible. We have done our best to offer diversity while giving domonance to the domonant languages of our time.
+
+
+Maybe verbs don't have to be predicates any more than nouns do. Instead the predicates are the "connecting" words. Some of which make the infinitive into an action such as "*x*<sub>1</sub> does *x*<sub>2</sub>". That could be done but there makes for weaker "connections". For example what does it mean to say "he does beauty" or "he does car"? One could just say that these are nonsensical sentences, and that's fair. Not every string of words, even if formally correct, will necessarily make sense. But this is particularlly grevious in comparison to having complex predicates, where for instnace the predicate for "drive" might not make a whole lot of sense when the color "pink" is doing the driving. But it still *means* something. In our case "does car" doesn't actually mean anything. That's the key difference.
+
+However, this isn't neccessarily a bad thing either. It simply means we must take "does" into consideration when defining the meaning of words. And that's actually not so unreasonable because it is not that hard to guess that "does car" probably means "drive". Moreover we have to do the same thing already with a nummber of other concepts such as color b/c we can't affored a separate word for every variation of a thing without runnung out of available words in our word constrained morphology. 
+
+On first blush this might seem like a really great approach for a language with an very limited number words. But there is a downside. Cosider the predicate "<u>x1</u> jumps over <u>x2</u>". If instead we had only an infinitive that meant "jump" and had to use "x1 does jump" then we have lost something in the process. Namely x2 no longer exists. Consequently we can't use an adverbal or inflected form to extract x2's meaning from the predicate, e.g. "the jumped". Instead we need another predicate, "<u>x1</u> is over <u>x2</u>" and use it in conjuction with the first, "<u>x1</u> does <u>jump</u> over <u>x2</u>". And thus a more complex pharse, "the jumped over", is necessary to get the same meaning. So it's a trade-off. Even so it looks like a trade-off worth taking. Not having a specific word for "that which was jumped over" is something we assuredly can live without, as will be the case for objects of most complex predicates. It is more advantageous to have the extra meaning of nouns as verbs which nearly doubles our available sematics per word. Thus, "I letter".
+
 
 
 ## Lesson 1: Letters and Sounds
 
-Most of the sounds of Fu Lang are recognizable by any English speaker. Only a few sounds will be uncommon to the English ear. These *foreign* sounds aren't difficult, so much as they simply require practice.
+TODO: Consider removing the morphemic distinction between voiced and unvoiced consonants.
 
+Almost all of letters and sounds of Fu Lang will be familiar to an English speaker. Only a few sounds will be uncommon to the English ear. These *foreign* sounds aren't difficult, so much as they simply require practice.
 
-### Vowels
+| Letters | Sound                  | Phonetic Symbol  |
+|---------|------------------------|------------------|
+|   '     | stop                   |    \[ʔ]          |
+|         |                        |                  |
+|   a     | 'ah' as in 'father'    |    \[ɑ]          |
+|   aa    | 'a'  as in 'fat'       |    \[æ]          |
+|   e     | 'eh' as in 'bed'       |    \[e̞]          |
+|   i     | 'i'  as in 'bit'       |    \[I]          |
+|   ii    | 'ee' as in 'feet'      |    \[i]          |
+|   o     | 'oh' as in 'pony'      |    \[o̞]          |
+|   u     | 'oo' as in 'boot'      |    \[u]          |
+|   r     | 'ur' in further        |                  |
+|         |                        |                  |
+|   h     |                        |    \[ɰ] - \[ɦ]  |
+|   y     | 'y' in 'yellow'        |    \[j]          |
+|   r     | 'r' in 'rain'          |    \[r]          |
+|   w     | 'w' in 'west'          |    \[w]          |
+|         |                        |                  |
+|   n     | 'n' in 'noon'          |    \[n]          |
+|   m     | 'm' in 'moon'          |    \[m]          |
+|   l     | 'l' in lemon           |    \[l]          |
+|         |                        |                  |
+|   k     | 'k' in king            |    \[k] - \[q]   |
+|   g     | 'g' in game            |    \[g] - \[G]   |
+|   t     | 't' in time            |    \[t]          |
+|   d     | 'd' in dog             |    \[d]          |
+|   p     | 'p' in pie             |    \[p]          |
+|   b     | 'b' in boat            |    \[b]          |
+|         |                        |                  |
+|   q     | 'ch' in loch           |    \[x] - \[H]   |
+|   x     | 'gh' in arghhh         |    \[ɣ] - \[ʢ]   |
+|   c     | 'sh' in shoe           |    \[ʃ] - \[ɕ]   |
+|   j     | 's' in measure         |    \[ʒ] - \[ʑ]   |
+|   s     | 's' in sun             |    \[s]          |
+|   z     | 'z' in zoo             |    \[z]          |
+|   f     | 'f' in farm            |    \[f] - \[th]  |
+|   v     | 'v' in vine            |    \[v] - \[dh]  |
 
 There are six vowels, three short vowels and three long vowels. Long vowels sound like constrained forms of the short vowels and are pronounced slightly longer.
 
-| roman   | sound                  |  phonetic symbol |
-|---------|------------------------|------------------|
-|   a     | 'ah' as in 'father'    |     \[ɑ]         |
-|   aa    | 'a'  as in 'fat'       |     \[æ]         |
-|   e     | 'eh' as in 'bed'       |     \[e̞]         |
-|   i     | 'i'  as in 'bit'       |     \[I]         |
-|   ii    | 'ee' as in 'feet'      |     \[i]         |
-|   o     | 'oh' as in 'pony'      |     \[o̞]         |
-|   u     | 'oo' as in 'boot'      |     \[u]         |
-|   r     | 'ur' in further        |                  |
-
 TODO: What about `u` sound as in "duh".
-
-
-### Diphthongs
 
 Diphthongs are dual vowel sounds that glide together seamlessly. Fu Lang has nine diphthongs which are divided into three groups: iotic, omicronic and rhotic.
 
@@ -54,35 +89,6 @@ Rhotic vowels trail off into an 'r' sound. It can be trilled if desired. There a
 |   or    | 'oar' in boar          | \[o˞]            |
 |  iir    | 'eer' in beer          | \[i˞]            |
 
-### Consonants
-
-Note, we are considering removing the morphemic distinction between voiced and unvoiced consonants.
-
-| roman letter   | sound                  |  phonetic symbol |
-|----------------|------------------------|------------------|
-|   \|           | stop                   |    \[ʔ]          |
-|   k            | 'k' in king            |    \[k] - \[q]   |
-|   g            | 'g' in game            |    \[g] - \[G]   |
-|   t            | 't' in time            |    \[t]          |
-|   d            | 'd' in dog             |    \[d]          |
-|   p            | 'p' in pie             |    \[p]          |
-|   b            | 'b' in boat            |    \[b]          |
-|   q            | 'ch' in loch           |    \[x] - \[H]   |
-|   x            | 'gh' in arghhh         |    \[ɣ] - \[ʢ]   |
-|   c            | 'sh' in shoe           |    \[ʃ] - \[ɕ]   |
-|   j            | 's' in measure         |    \[ʒ] - \[ʑ]   |
-|   s            | 's' in sun             |    \[s]          |
-|   z            | 'z' in zoo             |    \[z]          |
-|   f            | 'f' in farm            |    \[f] - \[th]  |
-|   v            | 'v' in vine            |    \[v] - \[dh]  |
-|   n            | 'n' in 'noon'          |    \[n]          |
-|   m            | 'm' in 'moon'          |    \[m]          |
-|   l            | 'l' in lemon           |    \[l]          |
-
-|   h            |                        |    \[ɰ] - \[ɦ]   |
-|   y            | 'y' in 'yellow'        |    \[j]          |
-|   r            | 'r' in 'rain'          |    \[r]          |
-|   w            | 'w' in 'west'          |    \[w]          |
 
 Notice there is no 'h' sound, as in English 'how'. This sound, called the *aspirant*, is reserved to disambiguate the pronunciation of successive words.
 
@@ -97,13 +103,16 @@ Consonant digraphs are two consonants that are so tightly knit that perceptually
 |   ts            |                        |      \[t͡s]       |
 |   dz            |                        |      \[d͡z]       |
 |                 |                        |                  |
-|   gr  ?         | 'gh' in 'argh'         |      \[]         |
+|   gr            | 'gh' in 'argh'         |      \[]         |
 |                 |                        |                  |
 |   ng            | 'ng' in 'song'         |      \[N]        |
 
 Note that `ng` can only be used at the end of words, not at the beginning.
 
-Consonants and consonant digraphs are organized into various named sets.
+
+### Lesson 3: Letter Sets
+
+Consonants and consonant digraphs are organized into various named sets. By giving names to sets of letters we can more easily talk about them.
 
 | Set              | Letters                          |
 |------------------|----------------------------------|
@@ -257,18 +266,25 @@ Set negation, 'nu', refers to a set of things from which a given object is exclu
 
 ... negation, 'nay', refers to the opposite of a thing. For instance the opposite of 'up' is 'down' and the opposite of 'joy' is 'misery'. This form of negation is open to interpretation.
 
+bu from the Chinese bù
+
+
 
 ## Lesson 5: Personal Pronouns
 
-Pronouns are the most commonly used *zo wr*.
+Pronouns are the most commonly used *zo wr*. Unlike almost all other words they come in sigular and plural form.
 
-| Person  |             |                 |
-|---------|-------------|-----------------|
-|     1st | je/ay/mi    | I               |
-|     2nd | vu          | you             |
-|     3rd | ley         | he/she/it       |
+| Person     |           |                |
+|------------|-----------|----------------|
+| 1st Sing.  | je/ay/mi  | I              |
+| 2nd Sing.  | vu        | you            |
+| 3rd Sing.  | ley       | he/she/it      |
+|            |           |                |
+| 1st Pl.    | wi        | We             |
+| 2nd Pl.    |           | you            |
+| 3rd Pl.    | ley       | they           |
 
-There is also a *4th Person* pronoun `fo` which is similar to 3rd person but is used to distinguish the two references.
+There is also a *4th Person* pronoun `fo` which is similar to 3rd person but is used to distinguish the two different references, e.g "those others".
 
 Using negation we can speak of *negtive persons*.
 
@@ -300,11 +316,11 @@ It should also be noted that demonstratives have no sense of gender. One can say
 
 ## Lesson 7: Gender 
 
-Unlike most other natural languages, it is never necessary to specify gender. But it can be given if it is helpful to clarify what is being said. There are three words to describe gender, one for masculine, one for feminine and one for transgendered or asexual indiviudals. These are all single-valence words (*un wr*).
+Unlike the vast majority of natural languages, it is never necessary to specify gender in Fu Lang. But it can be given if it is helpful to clarify what is being said. There are three words to describe gender, one for masculine, one for feminine and one for transgendered or asexual indiviudals. These are all single-valence words (*un wr*).
 
-    fe  - X is female; *ley fe* means "she"
-    mo  - X is male; *ley mo* means "he"
-    enu - X is transgendered or asexual
+    fe  - X1 is female; *ley fe* means "she"
+    mo  - X1 is male; *ley mo* means "he"
+    enu - X1 is transgendered or asexual
 
 
 ## Lesson 8: Thing-In-Itself
@@ -325,25 +341,15 @@ These the only words in __ that have a concept of number built-in.
     0   1   2   3   4   5   6   7   8   9   
     zo  un  du  twa kwa san ses sep otc nev
 
-    du nem - base 2 
-    - base 4
-    - base 6
-    - base 8
-    - base 10
-    - base 12
-    - base 16
-
-To form numbers larger than nine, simply string the words together.
-
-    10 = unzo
-    23 = dutwa
-    42 = kwadu
-    sanotczozo = 5800
+To form numbers larger than nine, simply string the words together. For example, ten is *un zo*, twenty-three would be `du twa` and a larger number such as 5800 would be *san otc zo zo*.
 
 Fu Lang also has words for numbers ten thru sixteen to facilitate the use of hexidecimal.
 
     10  11  12  13  14  15  16
     des ev  
+
+In covnersation the base of the number system being used is implied. Usually is decimal, but one can be specific use the term `bai`. For example, `du bai un zo` would be binary for two. Where as `otc bai un du` is octal for the deimal number ten.
+
 
 ## Lesson 10: ?
 
@@ -376,7 +382,7 @@ Examples
 
 ## Lesson 10: Tense and Aspect
 
-Unlike English and most other languages, tense and aspect are optional. This will seem strange to most people. After all, all events happen in time. But the beauty of this is that the temporal information of the statement can be set before hand, or clarified after the fact. This removes a lot of unnecessary verbage from sentences. For example, by starting a story out, "Long long ago...", there really is no need to use the past tense with every verb that follows. We have already been informed that the story is set in the past.
+Unlike English and most other languages, tense and aspect are optional and in a certain sense aren't even part of the grammar. This will seem strange to most people. After all, all events happen in time. But the beauty of this is that the temporal information of the statement can be set before hand, or clarified after the fact. This removes a lot of unnecessary verbage from sentences. For example, by starting a story out, "Long long ago...", there really is no need to use the past tense with every verb that follows. We have already been informed that the story is set in the past.
 
 There are three tense *un wr* 
 
@@ -396,12 +402,12 @@ Tense and aspect are usually placed after the main predicate of a sentence. Howe
 
 ## 
 
-The precise meaning of a *zo wr* can vary depending on the predicate slot they fill. For example, *blu* means the color blue when used with `kol`, but it means `sad` when used with `emo`.
+The precise meaning of a *zo wr* can vary depending on the predicate slot they fill. For example, *blu* means the color blue when used with `kol`, but it means `sad` when used with `moy`.
 
     mi blu kol - I am blue (in color)
-    mi blu emo - I am sad
+    mi blu moy - I am sad
 
-This a very important feature of __. It is what makes it possible to have so few words compared to more complex languages and yet still convey the same degree of nuance in thought.
+This a very important feature of Fu Lang. It is what makes it possible to have so few words compared to more complex languages and yet still convey the same degree of nuance in thought.
 
     mi kor li dim ruj kol se ram
 
@@ -419,9 +425,17 @@ Predicates with three slots are typicallay transative predicates, which simple m
     I throw it to/at you
 
 
+## Adverbial Modifers
+
+    demunative
+    suparlitive
+
+For example, to say `suhb run` means to "jog", where as "sup run" means to "sprint". This is very similar to saying, for instance `slow run` or `fast run` but not quite the same because the latter is still "running", where as the former is changed into another, albiet related, act.
+
+
 ## Macros
 
-There are a dozen or so words that have strictly grammatical use. They do not have any inhient meaning. Instead they manipulate a predicate to alter its structure. 
+There are a dozen or so words that have strictly grammatical use. They do not have any inherent meaning. Instead they manipulate a predicate to alter its structure. In some respects, these are similar to advarbs in English.
 
     se - swap the 1st and 2nd slots
        - swap the 1st and 3rd slots
@@ -469,14 +483,13 @@ Lexicon
 e
   ~ and; a macro connector for logical "and"
 
-bang
-  ~ from Chinese, stick or straight thing
-
 bong
-  ~ from English, water pipe
+  ~ from Chinese, stick or straight thing
+  ~ *slang* water pipe \[English bong]
 
 kor
-  ~ X1 has color or visual surface characterstic X2. "tu blu kor" meaning "you are blue (in color)".
+  ~ n. color or visual surface characterstic
+  ~ v. <i>x<sub>1</sub></i> has color or visual surface characterstic <i>x<sub>2</sub></i>
 
 blu kor 
   ~ X1 is the color blue
@@ -521,17 +534,261 @@ des
   ~ number ten
 
 flor
-  ~ X1 is a flower of type X2
+  ~ <i>x<sub>1</sub></i> is a flower of type <i>x<sub>2</sub></i>
 
 gwa
-  ~ X1 is a fruit of type X2 \[from Chinese 'gua']
+  ~ <i>x<sub>1</sub></i> is a fruit of type <i>x<sub>2</sub></i> \[from Chinese 'gua']
 
 joy
-  ~ 
+  ~ <i>x<sub>1</sub></i> is joyous/happy
 
 bawq
   ~ X1 is stopped or interupted by error
 
 psai
   ~ <i>x<sub>1</sub></i> is psychic
+
+pic
+  ~ fish of type <i>x<sub>1</sub></i> \[Latin pisces]
+
+in
+  ~ <i>x<sub>1</sub></i> is inside <i>x<sub>2</sub></i>
+
+on
+  ~ <i>x<sub>1</sub></i> is in contact with <i>x<sub>2</sub></i>
+
+der
+  ~ direction; way; path.
+
+for
+  ~ <i>x<sub>1</sub></i> is in front of <i>x<sub>2</sub></i>
+
+tcyan
+  ~ <i>x<sub>1</sub></i> happened <i>x<sub>2</sub></i> time ago \[Chinese 'Qian']
+
+up 
+  ~ up; upward
+
+lef
+  ~ left; leftward; toward the left
+
+hot
+  ~ horizontal; perpendicular to gravity
+
+vet 
+  ~ vertical; parallel to gravity
+
+twr
+  ~ to; towards; in the direction of.
+
+bak
+  ~ back to; toward the source or original location.
+
+xros:
+  ~  across
+
+xrw (P): through; in and out of.
+
+nor
+  ~ north orienation
+
+yos (D): east.
+
+pax
+  ~ path; pathway; passage; passageway.
+
+trn
+  ~ <i>x<sub>1</sub></i> turns, rotates or changes orientation of <i>x<sub>2</sub></i> to or in the manner of <i>x<sub>3</sub></i>
+
+yan
+  ~ <i>x<sub>1</sub></i> uses <i>x<sub>2</sub></i> \[Chinese yòng]
+
+cu
+  ~ <i>x<sub>1</sub></i> leaves place <i>x<sub>2</sub></i> \[Chinese qù]
+
+lai
+  ~ <i>x<sub>1</sub></i> comes/arrives from place <i>x<sub>2</sub></i> \[Chinese lái]
+
+dao
+  ~ <i>x<sub>1</sub></i> goes to place <i>x<sub>2</sub></i> \[Chinese dao]
+
+cyau
+  ~ <i>x<sub>1</sub></i> laughs about <i>x<sub>2</sub></i>
+
+laaf
+  ~ <i>x<sub>1</sub></i> laughs about <i>x<sub>2</sub></i>
+
+meik
+  ~ <i>x<sub>1</sub></i> makes <i>x<sub>2</sub></i> \[English make]
+
+tcu
+  ~ <i>x<sub>1</sub></i> makes <i>x<sub>2</sub></i> \[Chinese zhǔ]
+
+far
+  ~ <i>x<sub>1</sub></i> is far away from <i>x<sub>2</sub></i>
+
+tcug
+  ~ <i>x<sub>1</sub></i> is ugly \[Chinese chǒu, English ugly]
+
+nan
+  ~ <i>x<sub>1</sub></i> is difficult
+
+djin
+  ~ <i>x<sub>1</sub></i> is near to <i>x<sub>2</sub></i> \[Chinese jìn]
+
+au
+  ~ <i>x<sub>1</sub></i> is good \[Chinese hǎo]
+
+wai
+  ~ <i>x<sub>1</sub></i> is bad \[Chinese huài]
+
+tca
+  ~ tea of type <i>x<sub>1</sub></i>
+
+temp
+  ~ a specific point in time; moment
+
+dur
+  ~ time period with duration <i>x<sub>1</sub></i>
+
+Wuz (D): was; -ed; causes a verb to be in the past tense.
+Wil (D): will; going to; causes a verb to be in the future tense.
+
+Byf (P): before.
+
+Jwr (P): during (something); not necessarily from the start to end of.
+
+wail
+  ~ (English "while") <i>x<sub>1</sub></i> occurs during or for the duration of <i>x<sub>2</sub></i>
+
+ben
+   ~ to begin (something); start; initiate.
+
+start:
+  ~
+
+duhn:
+  ~ done; finished; complete/completely.
+
+Nwb (D): new/newly; young.
+
+Lyr (D): early.
+
+Völ (D): already.
+
+til 
+  ~ <i>x<sub>1</sub></i> happens until <i>x<sub>2</sub></i>
+
+weit
+  ~ <i>x<sub>1</sub></i> waits for <i>x<sub>2</sub></i> \[English wait]
+
+mwv
+  ~ <i>x<sub>1</sub></i> moves (in space) <i>x<sub>2</sub></i> \[English move]
+
+go
+  ~ to go (on a surface); travel; move one's self.
+
+fast
+  ~ <i>x<sub>1</sub></i> is fast/quick; quickly
+
+Kas (V): to carry (something); bring.
+
+wök
+  ~ to walk (on something).
+
+run
+  ~ <i>x<sub>1</sub></i> runs on surface <i>x<sub>2</sub></i> with gait x3 \[English run]
+
+jump
+  ~ <i>x<sub>1</sub></i> jumps over <i>x<sub>2</sub></i>
+
+slaid
+  ~ to slide (on something); glide; slip.
+
+Ner (N): energy.
+
+tceis
+  ~  <i>x<sub>1</sub></i> chases/pursues <i>x<sub>2</sub></i>
+
+weiv
+  ~ a wave in medium <i>x<sub>1</sub></i>
+
+swing
+  ~ <i>x<sub>1</sub></i> moves <i>x<sub>2</sub></i> back and forth
+  ~ <i>x<sub>1</sub></i> swings <i>x<sub>2</sub></i>  
+
+muh
+  ~ building for <i>x<sub>1</sub></i> \[Arabic mu]
+
+lin
+  ~ linear; straight
+
+rain
+  ~ body of water of type <i>x<sub>1</sub></i> \[German rhine]
+
+lin rain
+  ~ river
+
+du
+  ~ to do (something); perform (an action); be involved with; participate in.
+
+rep (V): to respond (with an action); reply; react.
+
+kin (V): to continue (something); keep doing.
+
+tcrai
+  ~ try <i>x<sub>1</sub></i>; attempt <i>x<sub>1</sub></i>
+
+tce (V): to change (something); make different; modify.
+
+tcu
+  ~ choose
+
+tcr
+  ~ determined; fated
+
+sön (V): to stand (on a surface).
+
+ryc
+  ~ <i>x<sub>1</sub></i> reaches for <i>x<sub>2</sub></i>
+
+yuz
+  ~ <i>x<sub>1</sub></i> uses <i>x<sub>2</sub></i>
+
+trp (V): to capture; trap.
+
+cak (V): to act (like something); perform (as something); behave as; pose as.
+
+test
+  ~ n. a test or exam
+  ~ v. <i>x<sub>1</sub></i> is tested for/about <i>x<sub>2</sub></i> with equipment <i>x<sub>3</sub></i>
+
+mej
+  ~ n. measurment
+  ~ v. <i>x<sub>1</sub></i> measures <i>x<sub>2</sub></i> using equipment <i>x<sub>3</sub></i>
+
+sawv
+  ~ n. puzzle or math problem
+  ~ v. <i>x<sub>1</sub></i> solves mathematical or logical problem <i>x<sub>2</sub></i>
+
+fiks
+  ~ <i>x<sub>1</sub></i> fixes or solves problem *x<sub>2</sub>* with solution <i>x<sub>3</sub></i>
+
+hewp
+  ~ n. help; assistence
+  ~ v. <i>x<sub>1</sub></i> helps/assists <i>x<sub>2</sub></i> to do <i>x<sub>3</sub></i>
+
+mis
+  ~ n. mistake; accident
+  ~ v. <i>x<sub>1</sub></i> makes a mistake
+
+pry (V): to practice (a skill); exercise.
+
+pok
+  ~ n. project
+  ~ v. *x*<sub>1</sub> is a project of type *x*<sub>2</sub>
+
+job
+  ~ *x<sub>1</sub>* does job *x<sub>2</sub>*
+
 
