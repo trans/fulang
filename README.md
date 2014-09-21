@@ -785,10 +785,9 @@ mis
 pry (V): to practice (a skill); exercise.
 
 pok
-  ~ n. project
-  ~ v. &chi;<sub>1</sub> is a project of type &chi;<sub>2</sub>
+  ~ *X*<sub>1</sub> works on project *X*<sub>2</sub>
 
 job
-  ~ &chi;<sub>1</sub> does job &chi;<sub>2</sub>
+  ~ *X*<sub>1</sub> does job *X*<sub>2</sub>
 
 
