@@ -786,9 +786,9 @@ pry (V): to practice (a skill); exercise.
 
 pok
   ~ n. project
-  ~ v. *x*<sub>1</sub> is a project of type *x*<sub>2</sub>
+  ~ v. &xi;<sub>1</sub> is a project of type &xi;<sub>2</sub>
 
 job
-  ~ *x<sub>1</sub>* does job *x<sub>2</sub>*
+  ~ &xi;<sub>1</sub> does job &xi;<sub>2</sub>
 
 
